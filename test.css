@@ -1,0 +1,13 @@
+#info_boks_6 {
+    background-size: cover;
+    width: 50vw;
+    background-color: blue;
+    padding: 5vw;
+}
+
+#info_boks_6 img {
+    display: block;
+    width: 10vw;
+    margin: 5vw auto;
+
+}

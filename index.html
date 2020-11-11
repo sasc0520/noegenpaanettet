@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nøgen På Nettet</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section id="game" class="skjul">
+        <section id="start" class="skjul">
+            <div id="start_tekst">
+                <audio src="soundeffects/ca5sek_hiss.mp3" id="baggrund"></audio>
+                <audio src="soundeffects/gameover_lyd.mp3" id="gameover"></audio>
+                <audio src="soundeffects/win_lyd.mp3" id="winlyd"></audio>
+                <audio src="soundeffects/emil_overrasket.mp3" id="gasp"></audio>
+            </div>
+            <div id="startknap_container" class="pulse">
+                <div id="startknap_sprite"></div>
+            </div>
+        </section>
+        <section id="velkommen" class="skjul">
+            <div id="vel_tekst">
+                <p>
+                    Emil og Julie er rigtig gode venner, og det har de været altid.<br> En mandag henne i skolen er noget helt forkert. Emil kan ikke helt sætte en finger på hvad det er. Julie føler sig blottet og helt afklædt.
+                </p>
+                <p>
+                    Hvad er der sket?
+                </p>
+            </div>
+            <div id="playknap_container" class="pulse">
+                <div id="playknap_sprite"></div>
+            </div>
+        </section>
+        <section id="scene" class="skjul">
+            <div id="julie_container">
+                <div id="julie_sprite"></div>
+            </div>
+            <div id="lys_container" class="rotation">
+                <div id="lys_sprite"></div>
+            </div>
+            <div id="playknap2_container" class="pulse">
+                <div id="playknap2_sprite"></div>
+            </div>
+        </section>
+
+        <section id="intro" class="skjul">
+            <div id="intro_tekst">
+                <p>
+                    Julie har fået delt et nøgenbilleder af sin ekskæreste. Hun føler sig alene, såret og krænket. Hjælp Julie med at føle sig tilpas igen ved at svare på forskellige spørgsmål, som kan hjælpe hende med at komme videre.
+                </p>
+                <p>
+                    Vil du hjælpe Julie?
+                </p>
+
+            </div>
+            <div id="jaknap_container">
+                <div id="jaknap_sprite"></div>
+            </div>
+            <div id="nejknap_container">
+                <div id="nejknap_sprite"></div>
+            </div>
+        </section>
+        <section id="spg" class="skjul">
+            <div id="spg_1" class="skjul">
+                <div id="julie_container_1">
+                    <div id="julie_sprite_1"></div>
+                </div>
+                <div id="tekst_1">
+                    <p>
+                        Emils kammerat har sendt et billede af Julie uden tøj på. Skal Emil sende det videre?
+                    </p>
+                </div>
+                <div id="svar_ja_container_1">
+                    <div id="svar_ja_sprite_1"></div>
+                </div>
+                <div id="svar_nej_container_1">
+                    <div id="svar_nej_sprite_1"></div>
+                </div>
+            </div>
+            <div id="info_boks_1" class="skjul">
+                <div id="info_tekst_1">
+                    <p>
+                        Slet det! <br>
+                        Vidste du, at det er strafbart at dele et billede af andre uden deres samtykke? Du får en plet på din straffeattest og børneattest.
+                    </p>
+                </div>
+
+                <div id="info_container_1" class="pulse">
+                    <div id="info_sprite_1"></div>
+                </div>
+            </div>
+            <div id="spg_2" class="skjul">
+                <div id="julie_container_2">
+                    <div id="julie_sprite_2"></div>
+                </div>
+                <div id="tekst_2">
+                    <p>
+                        Skal Emil slette billedet med det samme?
+                    </p>
+                </div>
+                <div id="svar_ja_container_2">
+                    <div id="svar_ja_sprite_2"></div>
+                </div>
+                <div id="svar_nej_container_2">
+                    <div id="svar_nej_sprite_2"></div>
+                </div>
+            </div>
+            <div id="info_boks_2" class="skjul">
+                <div id="info_tekst_2">
+                    <p>
+                        Stop spredningen! <br>
+                        Har du delt krænkede materiale, skal du kontakte modtageren og bede dem om at slette det. Sørg for at delingen bliver stoppet hurtigst muligt. Du kan kontakte det sociale medie, hvor billedet eller videoen er blevet delt, og bede dem om at slette eller anmelde det.
+                    </p>
+                </div>
+
+                <div id="info_container_2" class="pulse">
+                    <div id="info_sprite_2"></div>
+                </div>
+            </div>
+            <div id="spg_3" class="skjul">
+                <div id="julie_container_3">
+                    <div id="julie_sprite_3"></div>
+                </div>
+                <div id="tekst_3">
+                    <p>
+                        Skal Emil bede afsenderen om at slette billedet?
+                    </p>
+                </div>
+                <div id="svar_ja_container_3">
+                    <div id="svar_ja_sprite_3"></div>
+                </div>
+                <div id="svar_nej_container_3">
+                    <div id="svar_nej_sprite_3"></div>
+                </div>
+            </div>
+            <div id="info_boks_3" class="skjul">
+                <div id="info_tekst_3">
+                    <p>
+                        Sig fra! <br>
+                        Sig fra overfor den person, som har sendt dig det krænkende billede. Gør afsenderen af billedet opmærksom på, at du ikke har lyst til at modtage sådan nogle billeder, og at det er strafbart at dele billeder uden indehaverens samtykke. Bed personen, der har sendt dig billedet, om at slette det.
+                    </p>
+                </div>
+
+                <div id="info_container_3" class="pulse">
+                    <div id="info_sprite_3"></div>
+                </div>
+            </div>
+            <div id="spg_4" class="skjul">
+                <div id="julie_container_4">
+                    <div id="julie_sprite_4"></div>
+                </div>
+                <div id="tekst_4">
+                    <p>
+                        Bør Emil kontakte det sociale medie, som billedet er blevet delt på, og bede dem om at fjerne billedet?
+                    </p>
+                </div>
+                <div id="svar_ja_container_4">
+                    <div id="svar_ja_sprite_4"></div>
+                </div>
+                <div id="svar_nej_container_4">
+                    <div id="svar_nej_sprite_4"></div>
+                </div>
+            </div>
+            <div id="info_boks_4" class="skjul">
+                <div id="info_tekst_4">
+                    <p>
+                        Støt dine venner!<br>
+                        Det er en meget svær situation at stå i alene. Tal med din ven, hvis han/hun har fået delt et krænkende billede, lyt og fortæl dem at du er der for dem og gerne vil hjælpe dem.
+                    </p>
+                </div>
+
+                <div id="info_container_4" class="pulse">
+                    <div id="info_sprite_4"></div>
+                </div>
+            </div>
+            <div id="spg_5" class="skjul">
+                <div id="julie_container_5">
+                    <div id="julie_sprite_5"></div>
+                </div>
+                <div id="tekst_5">
+                    <p>
+                        Julie står alene og trist. Alle de andre står bag hende og griner. Skal Emil gå hen til Julie?
+                    </p>
+                </div>
+                <div id="svar_ja_container_5">
+                    <div id="svar_ja_sprite_5"></div>
+                </div>
+                <div id="svar_nej_container_5">
+                    <div id="svar_nej_sprite_5"></div>
+                </div>
+            </div>
+            <div id="info_boks_5" class="skjul">
+                <div id="info_tekst_5">
+                    <p>
+                        Søg hjælp!<br>
+                        Hjælp din ven/veninde med at fortælle det til en voksen. Selvom det er grænseoverskridende, så er det oftest vejen frem. Voksne kan ofte være bedre til at understrege alvoren og få materialet slettet. Ellers kan I kontakte en anonym rådgivning som for eksempel Privatsnak.dk
+                    </p>
+                </div>
+
+                <div id="info_container_5" class="pulse">
+                    <div id="info_sprite_5"></div>
+                </div>
+            </div>
+            <div id="spg_6" class="skjul">
+                <div id="julie_container_6">
+                    <div id="julie_sprite_6"></div>
+                </div>
+                <div id="tekst_6">
+                    <p>
+                        Skal Emil hjælpe Julie med at fortælle det til en voksen?
+                    </p>
+                </div>
+                <div id="svar_ja_container_6">
+                    <div id="svar_ja_sprite_6"></div>
+                </div>
+                <div id="svar_nej_container_6">
+                    <div id="svar_nej_sprite_6"></div>
+                </div>
+            </div>
+        </section>
+        <section id="game_over" class="skjul">
+            <div id="game_over_tekst">
+                <p>
+                    Åh Nej!<br>
+                    Julie er fyldt med skam og skyldfølelse, og det ender ud i, at hun er tvunget til at skifte skole på grund af mobning.
+                    Hvis du oplever, at nogle får delt et privat billede tal med dem, hav forståelse og lyt til dem.
+                    Gå til Privatsnak.dk hvis du har brug for rådgivning.
+                </p>
+            </div>
+            <div id="go_container" class="pulse">
+                <div id="go_sprite"></div>
+            </div>
+        </section>
+        <section id="win" class="skjul">
+            <div id="win_tekst">
+                <p>Du er fantastisk! <br>
+                    Du hjalp Julie med at komme igennem sin svære periode og hun føler sig nu tilpas igen.
+                    Hvis du oplever, at nogle får delt et privat billede tal med dem, hav forståelse og lyt til dem.
+                    Gå til Privatsnak.dk hvis du har brug for rådgivning.
+                </p>
+            </div>
+            <div id="restart_container" class="pulse">
+                <div id="restart_sprite"></div>
+            </div>
+        </section>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

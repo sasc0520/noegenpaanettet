@@ -1,0 +1,815 @@
+html {
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------------------------game----------------------------*/
+#game {
+    width: 100vw;
+    height: 56.25vw;
+    position: relative;
+}
+
+/*------------------start----------------------------*/
+#start {
+    position: absolute;
+    background-image: url(assets/Startside.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#start_tekst {}
+
+#startknap_container {
+    position: absolute;
+    bottom: 5vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#startknap_sprite {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+/*------------------vekommen----------------------------*/
+#velkommen {
+    position: absolute;
+    background-image: url(assets/velkommen.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#vel_tekst {
+    background-size: cover;
+    width: 50vw;
+    padding: 2vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#playknap_container {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#playknap_sprite {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+/*------------------scene----------------------------*/
+#scene {
+    position: absolute;
+    background-image: url(assets/scene.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#julie_container {
+    position: absolute;
+    bottom: 9vw;
+    left: 66vw;
+    z-index: 1;
+}
+
+#julie_sprite {
+    background-image: url(assets/julie.svg);
+    background-size: 100%;
+    width: 14vw;
+    height: 41.07vw;
+}
+
+#lys_container {
+    position: absolute;
+    bottom: 7vw;
+    left: 59vw;
+    z-index: 0;
+}
+
+#lys_sprite {
+    background-image: url(assets/spotlight.svg);
+    background-size: 100%;
+    width: 30vw;
+    height: 56vw;
+}
+
+/*#playknap2_container {
+    position: absolute;
+    bottom: 5vw;
+    left: 50vw;
+    z-index: 0;
+}
+
+#playknap2_sprite {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+*/
+/*------------------intro----------------------------*/
+#intro {
+    position: absolute;
+    background-image: url(assets/pop_up.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#intro_tekst {
+    background-size: cover;
+    width: 50vw;
+    padding: 1vw;
+    margin: 1vw 38vw auto;
+    font-size: 2.5vw;
+
+}
+
+#jaknap_container {
+    position: absolute;
+    bottom: 15vw;
+    left: 40vw;
+    z-index: 0;
+}
+
+#jaknap_sprite {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#nejknap_container {
+    position: absolute;
+    bottom: 15vw;
+    left: 65vw;
+    z-index: 0;
+}
+
+#nejknap_sprite {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+
+/*---------------spg------------------------------------*/
+
+#spg {
+    position: absolute;
+    background-image: url(assets/spilside.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#spg_1 {
+
+    /*background-size: 100%;
+    width: 50vw;
+    height: 23.08vw;*/
+}
+
+#julie_container_1 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_1 {
+    background-image: url(assets/julie_1.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_1 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+
+}
+
+#svar_ja_container_1 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_1 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#svar_nej_container_1 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_1 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#info_boks_1 {
+    position: absolute;
+    background-image: url(assets/efter_spg.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#info_tekst_1 {
+    background-size: cover;
+    width: 50vw;
+    padding: 2vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#info_container_1 {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#info_sprite_1 {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+#spg_2 {}
+
+#julie_container_2 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_2 {
+    background-image: url(assets/julie_2.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_2 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+}
+
+#svar_ja_container_2 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_2 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#svar_nej_container_2 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_2 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#info_boks_2 {
+    position: absolute;
+    background-image: url(assets/efter_spg.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#info_tekst_2 {
+    background-size: cover;
+    width: 50vw;
+    padding: 0.2vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#info_container_2 {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#info_sprite_2 {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+#spg_3 {}
+
+#julie_container_3 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_3 {
+    background-image: url(assets/julie_3.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_3 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+}
+
+#svar_ja_container_3 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_3 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+
+#svar_nej_container_3 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_3 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#info_boks_3 {
+    position: absolute;
+    background-image: url(assets/efter_spg.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#info_tekst_3 {
+    background-size: cover;
+    width: 50vw;
+    padding: 0.05vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#info_container_3 {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#info_sprite_3 {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+
+#spg_4 {}
+
+#julie_container_4 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_4 {
+    background-image: url(assets/julie_4.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_4 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+}
+
+#svar_ja_container_4 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_4 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#svar_nej_container_4 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_4 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#info_boks_4 {
+    position: absolute;
+    background-image: url(assets/efter_spg.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#info_tekst_4 {
+    background-size: cover;
+    width: 50vw;
+    padding: 2vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#info_container_4 {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#info_sprite_4 {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+
+#spg_5 {}
+
+#julie_container_5 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_5 {
+    background-image: url(assets/julie_5.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_5 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+}
+
+#svar_ja_container_5 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_5 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#svar_nej_container_5 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_5 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#info_boks_5 {
+    position: absolute;
+    background-image: url(assets/efter_spg.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#info_tekst_5 {
+    background-size: cover;
+    width: 50vw;
+    padding: 0.1vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#info_container_5 {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#info_sprite_5 {
+    background-image: url(assets/spil_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+#spg_6 {}
+
+#julie_container_6 {
+    position: absolute;
+    bottom: 3vw;
+    left: 63.5vw;
+    z-index: 1;
+}
+
+#julie_sprite_6 {
+    background-image: url(assets/julie_6.svg);
+    background-size: 100%;
+    width: 19vw;
+    height: 53.32vw;
+}
+
+#tekst_6 {
+    background-size: cover;
+    width: 46vw;
+    padding: 0vw 4vw 4vw 5vw;
+    margin: 4vw 10vw 4vw 0vw;
+    font-size: 3vw;
+}
+
+#svar_ja_container_6 {
+    position: absolute;
+    bottom: 15vw;
+    left: 4vw;
+    z-index: 0;
+}
+
+#svar_ja_sprite_6 {
+    background-image: url(assets/ja.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+#svar_nej_container_6 {
+    position: absolute;
+    bottom: 15vw;
+    left: 28vw;
+    z-index: 0;
+}
+
+#svar_nej_sprite_6 {
+    background-image: url(assets/nej.svg);
+    background-size: 100%;
+    width: 22vw;
+    height: 11vw;
+}
+
+
+
+
+/*----------------win---------------------------*/
+#win {
+    position: absolute;
+    background-image: url(assets/Level_Complete.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#win_tekst {
+    background-size: cover;
+    width: 50vw;
+    padding: 2vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#restart_container {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#restart_sprite {
+    background-image: url(assets/spiligen_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+
+/*----------------game_over---------------------------*/
+#game_over {
+    position: absolute;
+    background-image: url(assets/Game_Over.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#game_over_tekst {
+    background-size: cover;
+    width: 50vw;
+    padding: 0.05vw;
+    margin: 5vw auto;
+    font-size: 3vw;
+}
+
+#go_container {
+    position: absolute;
+    bottom: 7.8vw;
+    left: 46.5vw;
+    z-index: 0;
+}
+
+#go_sprite {
+    background-image: url(assets/spiligen_knap.svg);
+    background-size: 100%;
+    width: 7vw;
+    height: 7vw;
+}
+
+/*----------------Animationer---------------------------*/
+.skjul {
+    display: none;
+    pointer-events: none;
+}
+
+.fade_out {
+    opacity: 0;
+    animation-name: fade_kf;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade_kf {
+    from {
+        opacity: 1;
+
+    }
+
+    to {
+        opacity: 0;
+
+    }
+}
+
+
+/*--------- Button / knapper - animation ------*/
+
+.pulse {
+    animation-name: pulse_kf;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes pulse_kf {
+    from {
+        transform: scale(1)
+    }
+
+    to {
+        transform: scale(1.2)
+    }
+}
+
+.rotation {
+    animation-name: rotation_kf;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+    animation-timing-function: linear;
+    transform-origin: top;
+    animation-fill-mode: both;
+}
+
+@keyframes rotation_kf {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    25% {
+        transform: rotate(4.7deg)
+    }
+
+    50% {
+        transform: rotate(0deg)
+    }
+
+    75% {
+        transform: rotate(-4.7deg)
+    }
+
+    100% {
+        transform: rotate(0deg)
+    }
+}
+
+.dissappear {
+    animation-name: dissappear_kf;
+    animation-duration: .5s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.59, -0.56, .77, 1.34);
+    animation-fill-mode: forwards;
+}
+
+@keyframes dissappear_kf {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+}
